@@ -11,7 +11,7 @@ RUN mkdir -p /data/getch
 
 # configuration
 RUN mkdir -p ~/.getch
-COPY getch.conf ~/.getch
+COPY getch.groovy ~/.getch
 
 EXPOSE 4382
 
