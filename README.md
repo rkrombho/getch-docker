@@ -1,9 +1,9 @@
 getch-docker
 ============
 
-Docker image for [Getch|https://github.com/rkrombho/getch]
+Docker image for [Getch](https://github.com/rkrombho/getch)
 
-Current Getch version: [0.0.3|https://github.com/rkrombho/getch/releases/tag/0.0.3]
+Current Getch version: [0.0.3](https://github.com/rkrombho/getch/releases/tag/0.0.3)
 
 
 ```bash
