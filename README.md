@@ -10,5 +10,5 @@ Current Getch version: [0.0.3](https://github.com/rkrombho/getch/releases/tag/0.
 # create a directory that represents your Getch hierarchy root
 mkdir ~/getch
 # run the container and map the hierarchy root as a volume
-docker run -v /opt/getch:/data/getch -e ENCRYPTION_PASSWORD=<password> rkrombho/getch
+docker run -v ~/getch:/data/getch -e ENCRYPTION_PASSWORD=<password> rkrombho/getch
 ```
