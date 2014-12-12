@@ -10,11 +10,10 @@ RUN mkdir -p /usr/bin/getch && \
 RUN mkdir -p /data/getch
 
 # configuration
-RUN mkdir -p ~/.getch
-COPY getch.groovy ~/.getch
+COPY getch.groovy /etc/getch/
 
 EXPOSE 4382
 
 VOLUME /data/getch
 
-CMD ["java", "-jar", "/usr/bin/getch/getch-0.0.3.jar", "port=4382"]
+CMD ["java", "-Dgetch.config.file=/etc/getch/getch.groovy", "-jar", "/usr/bin/getch/getch-0.0.3.jar", "port=4382"]
