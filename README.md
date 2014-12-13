@@ -1,6 +1,8 @@
 getch-docker
 ============
 
+![alt text](https://raw.githubusercontent.com/rkrombho/getch/master/logo/getch_logo.png "Getch")
+
 Docker image for [Getch](https://github.com/rkrombho/getch)
 
 Current Getch version: [0.0.3](https://github.com/rkrombho/getch/releases/tag/0.0.3)
