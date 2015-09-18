@@ -4,7 +4,7 @@ MAINTAINER Robert Krombholz <robertkrombholz@googlemail.com>
 # download Getch
 RUN mkdir -p /usr/bin/getch && \
   cd /usr/bin/getch && \
-  wget https://github.com/rkrombho/getch/releases/download/0.0.4/getch-0.0.4-jar
+  wget https://github.com/rkrombho/getch/releases/download/0.0.4/getch-0.0.4-jar -O getch-0.0.4.jar
 
 # the Getch hierarchy base
 RUN mkdir -p /data/getch
